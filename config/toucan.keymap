@@ -110,19 +110,19 @@
         nav {
             display-name = "NAV";
             bindings = <
-//    ┌─────┬─────────┬─────────┬─────────┬─────────┬─────┐       ┌──────┬──────┬─────────┬─────────┬─────────┬─────────┐
-//    │     │         │         │         │         │     │       │ home │ pgdn │  pgup   │   end   │   ins   │         │
-//    ├─────┼─────────┼─────────┼─────────┼─────────┼─────┤       ├──────┼──────┼─────────┼─────────┼─────────┼─────────┤
-//    │     │  lgui   │  lalt   │  lctl   │  lsft   │     │       │ left │ down │   up    │  rght   │  caps   │         │
-//    ├─────┼─────────┼─────────┼─────────┼─────────┼─────┤       ├──────┼──────┼─────────┼─────────┼─────────┼─────────┤
-//    │     │ lctl(Z) │ lctl(X) │ lctl(C) │ lctl(V) │     │       │ del  │ bspc │ lalt(1) │ lalt(2) │ lalt(3) │ lalt(4) │
-//    └─────┴─────────┴─────────┼─────────┼─────────┼─────┤       ├──────┼──────┼─────────┼─────────┴─────────┴─────────┘
-//                              │         │         │     │       │      │      │         │
-//                              └─────────┴─────────┴─────┘       └──────┴──────┴─────────┘
-  &trans   &trans      &trans      &trans      &trans      &trans           &kp HOME   &kp PG_DN   &kp PG_UP    &kp END      &kp INS      &trans
-  &trans   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans           &kp LEFT   &kp DOWN    &kp UP       &kp RIGHT    &kp CAPS     &trans
-  &trans   &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &trans           &kp DEL    &kp BSPC    &kp LA(N1)   &kp LA(N2)   &kp LA(N3)   &kp LA(N4)
-                                   &trans      &trans      &trans           &trans     &trans      &trans
+//    ┌─────┬─────────┬─────────┬─────────┬─────────┬─────┐       ┌─────────┬─────────┬─────────┬─────────┬──────┬─────┐
+//    │     │         │         │         │         │     │       │  home   │  pgdn   │  pgup   │   end   │ ins  │     │
+//    ├─────┼─────────┼─────────┼─────────┼─────────┼─────┤       ├─────────┼─────────┼─────────┼─────────┼──────┼─────┤
+//    │     │  lgui   │  lalt   │  lctl   │  lsft   │     │       │  left   │  down   │   up    │  rght   │ caps │     │
+//    ├─────┼─────────┼─────────┼─────────┼─────────┼─────┤       ├─────────┼─────────┼─────────┼─────────┼──────┼─────┤
+//    │     │ lctl(Z) │ lctl(X) │ lctl(C) │ lctl(V) │     │       │ lalt(1) │ lalt(2) │ lalt(3) │ lalt(4) │      │     │
+//    └─────┴─────────┴─────────┼─────────┼─────────┼─────┤       ├─────────┼─────────┼─────────┼─────────┴──────┴─────┘
+//                              │         │         │     │       │         │         │         │
+//                              └─────────┴─────────┴─────┘       └─────────┴─────────┴─────────┘
+  &trans   &trans      &trans      &trans      &trans      &trans           &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &kp INS    &trans
+  &trans   &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans           &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp CAPS   &trans
+  &trans   &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &trans           &kp LA(N1)   &kp LA(N2)   &kp LA(N3)   &kp LA(N4)   &trans     &trans
+                                   &trans      &trans      &trans           &trans       &trans       &trans
             >;
         };
 
