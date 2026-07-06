@@ -108,6 +108,11 @@
             layers = <BASE>;
             bindings = <&kp COLON>;
         };
+
+        combo_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <19 20>;
+        };
     };
 
     conditional_layers {
