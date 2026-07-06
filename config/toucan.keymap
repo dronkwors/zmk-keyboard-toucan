@@ -124,12 +124,12 @@
 //    ├──────┼───┼───┼──────┼─────┼────────┤       ├───────────────────┼──────┼──────┼───┼───┼──────┤
 //    │ lsft │ Z │ X │  C   │  D  │   V    │       │         K         │  H   │  ,   │ . │ / │ esc  │
 //    └──────┴───┴───┼──────┼─────┼────────┤       ├───────────────────┼──────┼──────┼───┴───┴──────┘
-//                   │ lgui │ spc │ mo NAV │       │ &thumb_lt SYM ent │ bspc │ rsft │
+//                   │ lsft │ spc │ mo NAV │       │ &thumb_lt SYM ent │ bspc │ lgui │
 //                   └──────┴─────┴────────┘       └───────────────────┴──────┴──────┘
-  &kp TAB     &kp Q   &kp W   &kp F      &kp P       &kp B             &kp J               &kp L      &kp U       &kp Y     &kp SEMI   &kp BSPC
-  &kp LCTRL   &kp A   &kp R   &kp S      &kp T       &kp G             &kp M               &kp N      &kp E       &kp I     &kp O      &kp SQT
-  &kp LSHFT   &kp Z   &kp X   &kp C      &kp D       &kp V             &kp K               &kp H      &kp COMMA   &kp DOT   &kp FSLH   &kp ESC
-                              &kp LGUI   &kp SPACE   &mo NAV           &thumb_lt SYM RET   &kp BSPC   &kp RSHFT
+  &kp TAB     &kp Q   &kp W   &kp F       &kp P       &kp B             &kp J               &kp L      &kp U       &kp Y     &kp SEMI   &kp BSPC
+  &kp LCTRL   &kp A   &kp R   &kp S       &kp T       &kp G             &kp M               &kp N      &kp E       &kp I     &kp O      &kp SQT
+  &kp LSHFT   &kp Z   &kp X   &kp C       &kp D       &kp V             &kp K               &kp H      &kp COMMA   &kp DOT   &kp FSLH   &kp ESC
+                              &kp LSHFT   &kp SPACE   &mo NAV           &thumb_lt SYM RET   &kp BSPC   &kp LGUI
             >;
         };
 
@@ -158,15 +158,15 @@
 //    ┌─────┬───┬───┬─────┬─────┬─────┐       ┌─────┬─────┬─────┬───┬───┬─────┐
 //    │     │ ! │ @ │  #  │  $  │  %  │       │  ^  │  &  │  *  │ ( │ ) │     │
 //    ├─────┼───┼───┼─────┼─────┼─────┤       ├─────┼─────┼─────┼───┼───┼─────┤
-//    │     │ ` │ { │  }  │  \  │  |  │       │  -  │  =  │  [  │ ] │ ; │     │
+//    │     │ ` │ { │  }  │  \  │  |  │       │  -  │  =  │  [  │ ] │ ; │  ;  │
 //    ├─────┼───┼───┼─────┼─────┼─────┤       ├─────┼─────┼─────┼───┼───┼─────┤
-//    │     │ ~ │ ( │  )  │  /  │  ?  │       │  _  │  +  │  <  │ > │ : │     │
+//    │     │ ~ │ ( │  )  │  /  │  ?  │       │  _  │  +  │  <  │ > │ : │  :  │
 //    └─────┴───┴───┼─────┼─────┼─────┤       ├─────┼─────┼─────┼───┴───┴─────┘
 //                  │     │     │     │       │     │     │     │
 //                  └─────┴─────┴─────┘       └─────┴─────┴─────┘
   &trans   &kp EXCL    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT           &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR   &kp RPAR    &trans
-  &trans   &kp GRAVE   &kp LBRC   &kp RBRC   &kp BSLH   &kp PIPE            &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT   &kp SEMI    &trans
-  &trans   &kp TILDE   &kp LPAR   &kp RPAR   &kp FSLH   &kp QMARK           &kp UNDER   &kp PLUS    &kp LT      &kp GT     &kp COLON   &trans
+  &trans   &kp GRAVE   &kp LBRC   &kp RBRC   &kp BSLH   &kp PIPE            &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT   &kp SEMI    &kp SEMI
+  &trans   &kp TILDE   &kp LPAR   &kp RPAR   &kp FSLH   &kp QMARK           &kp UNDER   &kp PLUS    &kp LT      &kp GT     &kp COLON   &kp COLON
                                   &trans     &trans     &trans              &trans      &trans      &trans
             >;
         };

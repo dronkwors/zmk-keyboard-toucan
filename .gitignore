@@ -1,0 +1,4 @@
+# Local ZMK build workspace (created by local-build.sh / west) — never commit
+.zmk-build/
+firmware/
+.DS_Store
