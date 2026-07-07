@@ -111,6 +111,11 @@
 
         combo_underscore {
             bindings = <&kp UNDERSCORE>;
+            key-positions = <20 21>;
+        };
+
+        combo_tmux_prefix {
+            bindings = <&kp LC(B)>;
             key-positions = <19 20>;
         };
     };
